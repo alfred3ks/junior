@@ -96,8 +96,9 @@
 }
 
 .about__img {
-  width: 300px;
-  margin-left: 15px;
+  width: 100%;
+  /* background-color: #1e0e62; */
+  padding: 15px;
 }
 
 .about__img img {
@@ -109,7 +110,7 @@
 .skill {
   width: 100%;
   min-width: 320px;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -124,8 +125,8 @@
   font-size: 4rem;
   line-height: 4rem;
   color: #1e0e62;
-  margin-left: 15px;
-  margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .skill__content-description {
@@ -149,9 +150,8 @@
 }
 
 .skill__card {
-  margin-left: 15px;
-  margin-bottom: 15px;
-  margin-right: 15px;
+  width: 100%;
+  padding: 15px;
 }
 
 .skill__card-title {
@@ -179,6 +179,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-color: #f1f1f1;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -190,7 +191,7 @@
   font-size: 4rem;
   line-height: 4rem;
   color: #1e0e62;
-  margin-left: 15px;
+  margin: 0 auto;
   margin-bottom: 15px;
 }
 
@@ -207,8 +208,10 @@
 }
 
 .experience__btn {
-  margin-left: 15px;
+  width: 100%;
+  min-width: 320px;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .experience__btn button {
@@ -235,27 +238,21 @@
 
 .experience__work {
   width: 100%;
-  /* max-width: 1200px; */
   min-width: 320px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-auto-rows: minmax(250px, 1fr);
   grid-auto-flow: dense;
   gap: 20px;
-  /* margin: 0 auto; */
 }
 
 .experience__card {
-  width: 100%;
+  /* width: 300px; */
+  margin-bottom: 10px;
+  padding: 15px;
 }
 
 .experience__work-img {
-  width: 300px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
-
-.experience__work-img img {
   width: 100%;
   border-radius: 10px;
 }
@@ -267,8 +264,6 @@
   font-size: 2.2rem;
   line-height: 3.2rem;
   color: #1e0e62;
-  margin-left: 15px;
-  margin-bottom: 10px;
 }
 
 .experience__work-text {
@@ -278,17 +273,13 @@
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: rgba(21, 20, 57, 0.4);
-  mix-blend-mode: normal;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 25px;
 }
 
 /* footer */
 .footer {
   width: 100%;
   min-width: 320px;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -314,14 +305,16 @@
   line-height: 5rem;
   text-align: center;
   color: #482be7;
+  margin-left: 15px;
   margin-bottom: 15px;
 }
 
 .footer__redes {
   width: 100%;
+  max-width: 320px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .footer__redes img {

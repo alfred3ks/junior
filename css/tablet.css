@@ -1,0 +1,81 @@
+/* About */
+.about {
+  flex-direction: row;
+  align-items: center;
+}
+
+/* skill */
+.skill {
+  max-width: 900px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.skill__content-title {
+  margin-top: 25px;
+}
+
+.skill__content-description {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.skill__container {
+  flex-direction: row;
+}
+
+.skill__card {
+  padding: 0;
+}
+
+.skill__card-title {
+  text-align: center;
+}
+
+.skill__card-text {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.experience__title {
+  margin-top: 25px;
+}
+
+.experience__description {
+  text-align: center;
+}
+
+/*
+
+.skill__container {
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Experience */
+/* .experience__title {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.experience__description {
+  text-align: center;
+}
+
+.experience__btn {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.experience__work {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.experience__card {
+  margin: 0 auto;
+}  */
