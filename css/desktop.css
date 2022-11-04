@@ -1,0 +1,16 @@
+.about {
+  justify-content: space-around;
+}
+
+.about__img {
+  width: 300px;
+}
+
+.skill {
+  max-width: 1200px;
+}
+
+.experience__work {
+  max-width: 1200px;
+  margin: 0 auto;
+}
