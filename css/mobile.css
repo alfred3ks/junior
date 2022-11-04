@@ -1,0 +1,49 @@
+/* Estilo para mobile */
+/* Header */
+.header {
+  width: 100%;
+  min-width: 320px;
+  height: 90px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header__title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.header__title a {
+  text-decoration: none;
+  color: #1e0e62;
+  cursor: pointer;
+}
+
+.header__btn {
+  width: 100px;
+  height: 40px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  border: 2px solid #ebeaed;
+  border-radius: 100px;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.header__btn a {
+  text-decoration: none;
+  color: #1e0e62;
+}
