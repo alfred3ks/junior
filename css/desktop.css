@@ -1,40 +1,29 @@
-.header {
-  max-width: 1400px;
-  margin: 0 auto;
-  /* background-color: #25dac5; */
-}
-
 /* About */
 .about {
   justify-content: space-around;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 80px;
+  padding: 80px 0;
 }
 
 .about__img {
   width: 400px;
 }
 
-/* Skill */
+/* Skill*/
 .skill {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 80px;
+  padding: 80px 0;
 }
 
 /* Experience */
-.experience {
-  max-width: 1400px;
-  margin: 0 auto;
-}
 .experience__work {
   max-width: 1200px;
   margin: 0 auto;
 }
 
+.experience__description {
+  margin: auto;
+  margin-bottom: 25px;
+}
+
 .footer {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 80px;
+  padding: 80px 0;
 }
