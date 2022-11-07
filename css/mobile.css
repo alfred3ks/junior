@@ -99,13 +99,14 @@
 }
 
 .about__img {
-  width: 100%;
-  padding: 15px;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .about__img img {
   width: 100%;
   border-radius: 10px;
+  padding: 15px;
 }
 
 /* Skill */
