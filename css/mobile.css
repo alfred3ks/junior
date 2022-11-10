@@ -136,7 +136,7 @@
 /* ÑÑÑÑ */
 .skill__content-description {
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -217,7 +217,6 @@
   font-size: 1.6rem;
   line-height: 3rem;
   color: rgba(21, 20, 57, 0.4);
-  text-align: center;
   padding: 15px;
 }
 

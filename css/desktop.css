@@ -5,12 +5,17 @@
 }
 
 .about__img {
-  width: 400px;
+  width: 600px;
 }
 
 /* Skill*/
 .skill {
   padding: 80px 0;
+}
+
+.skill__content-description {
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 /* Experience */
@@ -22,6 +27,7 @@
 .experience__description {
   margin: auto;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .footer {

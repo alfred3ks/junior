@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.about__img {
+  width: 400px;
+}
+
 /* skill */
 .skill {
   margin-top: 50px;
@@ -15,11 +19,6 @@
 
 .skill__content-title {
   margin-top: 25px;
-}
-
-.skill__content-description {
-  margin-bottom: 25px;
-  text-align: center;
 }
 
 .skill__container {
